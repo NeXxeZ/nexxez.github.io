@@ -92,22 +92,22 @@ content:
     layout: list
     content:
       - layout: left
-        title: Magestio
-        sub_title: Developer
-        caption: April 2019 - September 2024
-        link: https://magestio.com
-        quote: >
-          E-commerce consulting company specialized in Magento.
-        description: | # this will include new lines to allow paragraphs
-          Full-Stack Developer, Systems analyzer/manager, basically an AIO.
-
-      - layout: left
         title: Dam-Sport
         sub_title: Developer & IT
         caption: September 2024 - present
         link: https://www.dam-sport.net/
         quote: >
           A company with a Magento-based eCommerce platform. My role involves Python development, scripting, and working with React. I’m actively expanding my skills and knowledge in these technologies.
+        description: | # this will include new lines to allow paragraphs
+          Full-Stack Developer, Systems analyzer/manager, basically an AIO.
+
+      - layout: left
+        title: Magestio
+        sub_title: Developer
+        caption: April 2019 - September 2024
+        link: https://magestio.com
+        quote: >
+          E-commerce consulting company specialized in Magento.
         description: | # this will include new lines to allow paragraphs
           Full-Stack Developer, Systems analyzer/manager, basically an AIO.
 
