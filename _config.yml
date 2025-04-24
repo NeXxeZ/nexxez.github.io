@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Joan Palacios
-title: Desarrollador web
+title: Web Developer
 email: elso95[at]gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -64,6 +64,8 @@ about_content: | # this will include new lines to allow paragraphs
   - PHP
   - Docker
   - Ethical hacking
+  - Python
+  - Scripting
 
 content:
   # - title: Projects # Title for the section
@@ -92,12 +94,23 @@ content:
       - layout: left
         title: Magestio
         sub_title: Developer
-        caption: April 2019 - present
+        caption: April 2019 - September 2024
         link: https://magestio.com
         quote: >
           E-commerce consulting company specialized in Magento.
         description: | # this will include new lines to allow paragraphs
           Full-Stack Developer, Systems analyzer/manager, basically an AIO.
+
+      - layout: left
+        title: Dam-Sport
+        sub_title: Developer & IT
+        caption: September 2024 - present
+        link: https://www.dam-sport.net/
+        quote: >
+          A company with a Magento-based eCommerce platform. My role involves Python development, scripting, and working with React. I’m actively expanding my skills and knowledge in these technologies.
+        description: | # this will include new lines to allow paragraphs
+          Full-Stack Developer, Systems analyzer/manager, basically an AIO.
+
   - title: Education
     layout: list
     content:
@@ -110,7 +123,7 @@ content:
         # description: | # this will include new lines to allow paragraphs
         #   Description of qualification
     
-      - layout: right
+      - layout: left
         title: IES Nº1
         sub_title: Higher Degree, Multiplatform Application Development
         caption: 2015 - 2017
