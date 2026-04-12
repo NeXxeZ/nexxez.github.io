@@ -1,0 +1,49 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#091018"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#63f2b0" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#63f2b0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Terminal box -->
+  <rect x="100" y="120" width="1000" height="390" rx="16" fill="#0f141b" stroke="#63f2b0" stroke-opacity="0.2"/>
+
+  <!-- Top bar -->
+  <rect x="100" y="120" width="1000" height="50" rx="16" fill="#111821"/>
+  <circle cx="140" cy="145" r="6" fill="#2a3b4c"/>
+  <circle cx="160" cy="145" r="6" fill="#2a3b4c"/>
+  <circle cx="180" cy="145" r="6" fill="#2a3b4c"/>
+
+  <!-- Prompt -->
+  <text x="140" y="220" fill="#63f2b0" font-size="22" font-family="monospace">
+    nexxez@dev:~$
+  </text>
+  <text x="320" y="220" fill="#d8e4f2" font-size="22" font-family="monospace">
+    whoami
+  </text>
+
+  <!-- Name -->
+  <text x="140" y="300" fill="#d8e4f2" font-size="48" font-family="monospace">
+    Joan Palacios
+  </text>
+
+  <!-- Alias -->
+  <text x="140" y="340" fill="#63f2b0" font-size="20" font-family="monospace">
+    aka NeXxeZ
+  </text>
+
+  <!-- Subtitle -->
+  <text x="140" y="400" fill="#8aa0b6" font-size="22" font-family="monospace">
+    Full Stack Developer · E-commerce · Automation · Systems
+  </text>
+</svg>
