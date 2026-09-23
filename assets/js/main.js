@@ -1,16 +1,20 @@
-const text = "whoami";
 const target = document.getElementById("typed-text");
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-let index = 0;
-
-function typeEffect() {
+function typeEffect(text = "whoami") {
   if (!target) return;
-
-  if (index < text.length) {
-    target.textContent += text.charAt(index);
-    index += 1;
-    setTimeout(typeEffect, 120);
+  if (reducedMotion) {
+    target.textContent = text;
+    return;
   }
+
+  let index = 0;
+  const tick = () => {
+    if (index >= text.length) return;
+    target.textContent += text.charAt(index++);
+    window.setTimeout(tick, 95);
+  };
+  tick();
 }
 
 window.addEventListener("DOMContentLoaded", () => {

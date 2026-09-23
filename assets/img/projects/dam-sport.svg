@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1821"/><stop offset="1" stop-color="#071018"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#g)"/><rect x="70" y="70" width="1460" height="760" rx="24" fill="#0a141c" stroke="#2a6650" stroke-width="2"/>
+<circle cx="112" cy="112" r="9" fill="#34505f"/><circle cx="142" cy="112" r="9" fill="#34505f"/><circle cx="172" cy="112" r="9" fill="#34505f"/>
+<text x="800" y="410" fill="#e7eef6" font-size="64" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700">Dam-Sport</text>
+<text x="800" y="478" fill="#63f2b0" font-size="28" text-anchor="middle" font-family="monospace">www.dam-sport.net/es</text>
+<text x="800" y="560" fill="#91a5b8" font-size="22" text-anchor="middle" font-family="monospace">project preview</text>
+</svg>
